@@ -1,0 +1,27 @@
+subtasks:
+  - score: 3
+    type: min
+    cases: [1]
+  - score: 12
+    type: min
+    cases: [2]
+  - score: 9
+    type: min
+    cases: [3]
+  - score: 24
+    type: min
+    cases: [4]
+  - score: 9
+    type: min
+    cases: [5]
+  - score: 16
+    type: min
+    cases: [6]
+  - score: 16
+    type: min
+    cases: [7]
+  - score: 11
+    type: min
+    cases: [8]
+inputFile: 'omeed#.in'
+outputFile: 'omeed#.out'

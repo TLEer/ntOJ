@@ -1,0 +1,13 @@
+[01m[K/sandbox/1/a.cpp:[m[K In function '[01m[Kshort int WSN::main()[m[K':
+[01m[K/sandbox/1/a.cpp:75:8:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[Kint scanf(const char*, ...)[m[K', declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+   [01;35m[Kscanf("%d%d",&n,&m)[m[K;
+   [01;35m[K~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/sandbox/1/a.cpp:76:30:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[Kint scanf(const char*, ...)[m[K', declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+   for(int i=1;i<=n;i++) [01;35m[Kscanf("%d",&w[i])[m[K;
+                         [01;35m[K~~~~~^~~~~~~~~~~~[m[K
+[01m[K/sandbox/1/a.cpp:77:33:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[Kint scanf(const char*, ...)[m[K', declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+   for(int i=1,x,y;i<n;i++) [01;35m[Kscanf("%d%d",&x,&y)[m[K,add(x,y);
+                            [01;35m[K~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/sandbox/1/a.cpp:80:16:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[Kint scanf(const char*, ...)[m[K', declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+    int v; [01;35m[Kscanf("%s%d",s,&v)[m[K;
+           [01;35m[K~~~~~^~~~~~~~~~~~~[m[K

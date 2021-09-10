@@ -1,0 +1,4 @@
+/sandbox/1/a.cpp: In function 'int main()':
+/sandbox/1/a.cpp:96:26: warning: ignoring return value of 'int scanf(const char*, ...)', declared with attribute warn_unused_result [-Wunused-result]
+  int nmb;scanf("%d",&nmb);
+                          ^

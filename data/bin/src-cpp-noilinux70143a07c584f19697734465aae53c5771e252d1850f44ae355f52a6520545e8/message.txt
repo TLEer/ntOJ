@@ -1,0 +1,7 @@
+/sandbox/1/a.cpp: In function 'int main()':
+/sandbox/1/a.cpp:59:17: warning: ignoring return value of 'int scanf(const char*, ...)', declared with attribute warn_unused_result [-Wunused-result]
+ { scanf("%d",&n);
+                 ^
+/sandbox/1/a.cpp:60:57: warning: ignoring return value of 'int scanf(const char*, ...)', declared with attribute warn_unused_result [-Wunused-result]
+  for(int i=1;i<n;++i){int a,b,c;scanf("%d%d%d",&a,&b,&c);add(a,b,c%3);add(b,a,c%3);}
+                                                         ^

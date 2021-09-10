@@ -1,0 +1,13 @@
+[01m[K/sandbox/1/a.cpp:[m[K In function '[01m[Kint main()[m[K':
+[01m[K/sandbox/1/a.cpp:73:10:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[Kint scanf(const char*, ...)[m[K' declared with attribute '[01m[Kwarn_unused_result[m[K' [[01;35m[K-Wunused-result[m[K]
+   73 |     [01;35m[Kscanf("%lld%lld", &n, &k)[m[K;
+      |     [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/sandbox/1/a.cpp:76:14:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[Kint scanf(const char*, ...)[m[K' declared with attribute '[01m[Kwarn_unused_result[m[K' [[01;35m[K-Wunused-result[m[K]
+   76 |         [01;35m[Kscanf("%lld%lld%lld", &x, &y, &z)[m[K;
+      |         [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/sandbox/1/a.cpp:84:10:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[Kint scanf(const char*, ...)[m[K' declared with attribute '[01m[Kwarn_unused_result[m[K' [[01;35m[K-Wunused-result[m[K]
+   84 |     [01;35m[Kscanf("%lld", &q)[m[K;
+      |     [01;35m[K~~~~~^~~~~~~~~~~~[m[K
+[01m[K/sandbox/1/a.cpp:87:14:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[Kint scanf(const char*, ...)[m[K' declared with attribute '[01m[Kwarn_unused_result[m[K' [[01;35m[K-Wunused-result[m[K]
+   87 |         [01;35m[Kscanf("%lld%lld", &x, &y)[m[K;
+      |         [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~[m[K

@@ -1,0 +1,49 @@
+[01m[K/sandbox/1/a.cpp:[m[K In function '[01m[Kvoid Output::print(int)[m[K':
+[01m[K/sandbox/1/a.cpp:25:14:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+   25 |         Down([01;35m[Ki[m[K,cnt,1) putchar(OPUT[i]+'0'); putchar('\n'); return ;
+      |              [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:10:33:[m[K [01;36m[Knote: [m[Kin definition of macro '[01m[KDown[m[K'
+   10 | #define Down(i,a,b) for(reg int [01;36m[Ki[m[K=a;i>=b;--i)
+      |                                 [01;36m[K^[m[K
+[01m[K/sandbox/1/a.cpp:[m[K In function '[01m[Kvoid dfs1(int, int)[m[K':
+[01m[K/sandbox/1/a.cpp:34:68:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+   34 |     dep[x]=dep[fa[x]=fat]+(siz[x]=1); anc[x][0]=fa[x]; for(reg int [01;35m[Ki[m[K=1;(1<<i)<=dep[x];++i) anc[x][i]=anc[anc[x][i-1]][i-1];
+      |                                                                    [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:40:21:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+   40 |         for(reg int [01;35m[Ki[m[K=1;to[x][i-1];++i) to[x][i]=to[to[x][i-1]][i-1];
+      |                     [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:42:17:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+   42 |     for(reg int [01;35m[Ki[m[K=head[x];i;i=e[i].nxt){
+      |                 [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:[m[K In function '[01m[Kvoid dfs2(int, int)[m[K':
+[01m[K/sandbox/1/a.cpp:49:17:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+   49 |     for(reg int [01;35m[Ki[m[K=head[x],t;t=e[i].to;i=e[i].nxt) if(t!=fa[x]&&t!=son[x]) dfs2(t,t); return ;
+      |                 [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:49:27:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+   49 |     for(reg int i=head[x],[01;35m[Kt[m[K;t=e[i].to;i=e[i].nxt) if(t!=fa[x]&&t!=son[x]) dfs2(t,t); return ;
+      |                           [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:[m[K In function '[01m[Kint main()[m[K':
+[01m[K/sandbox/1/a.cpp:54:37:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+   54 |     n=read(); k=read(); for(reg int [01;35m[Ki[m[K=1,u,v,w;i<n;++i) u=read(),v=read(),w=read(),adde(u,v,w),adde(v,u,w); dfs1(1,0); dfs2(1,1);
+      |                                     [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:54:41:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+   54 |     n=read(); k=read(); for(reg int i=1,[01;35m[Ku[m[K,v,w;i<n;++i) u=read(),v=read(),w=read(),adde(u,v,w),adde(v,u,w); dfs1(1,0); dfs2(1,1);
+      |                                         [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:54:43:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+   54 |     n=read(); k=read(); for(reg int i=1,u,[01;35m[Kv[m[K,w;i<n;++i) u=read(),v=read(),w=read(),adde(u,v,w),adde(v,u,w); dfs1(1,0); dfs2(1,1);
+      |                                           [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:54:45:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+   54 |     n=read(); k=read(); for(reg int i=1,u,v,[01;35m[Kw[m[K;i<n;++i) u=read(),v=read(),w=read(),adde(u,v,w),adde(v,u,w); dfs1(1,0); dfs2(1,1);
+      |                                             [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:57:38:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+   57 |         if(pref[x]-pref[tl]>=k) Down([01;35m[Ki[m[K,19,0) if(dep[tl]<=dep[to[x][i]]) x=to[x][i],sum+=(1<<i);
+      |                                      [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:10:33:[m[K [01;36m[Knote: [m[Kin definition of macro '[01m[KDown[m[K'
+   10 | #define Down(i,a,b) for(reg int [01;36m[Ki[m[K=a;i>=b;--i)
+      |                                 [01;36m[K^[m[K
+[01m[K/sandbox/1/a.cpp:59:38:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+   59 |         if(pref[y]-pref[tl]>=k) Down([01;35m[Ki[m[K,19,0) if(dep[tl]<=dep[to[y][i]]) y=to[y][i],sum+=(1<<i);
+      |                                      [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:10:33:[m[K [01;36m[Knote: [m[Kin definition of macro '[01m[KDown[m[K'
+   10 | #define Down(i,a,b) for(reg int [01;36m[Ki[m[K=a;i>=b;--i)
+      |                                 [01;36m[K^[m[K

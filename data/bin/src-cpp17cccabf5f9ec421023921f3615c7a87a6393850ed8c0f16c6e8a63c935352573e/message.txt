@@ -1,0 +1,7 @@
+[01m[K/sandbox/1/a.cpp:[m[K In function '[01m[Kint main()[m[K':
+[01m[K/sandbox/1/a.cpp:101:9:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+  for(re [01;35m[Ki[m[K=1;i<=n;i++){
+         [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:96:15:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[Kint scanf(const char*, ...)[m[K', declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+  int nmb;[01;35m[Kscanf("%d",&nmb)[m[K;
+          [01;35m[K~~~~~^~~~~~~~~~~[m[K

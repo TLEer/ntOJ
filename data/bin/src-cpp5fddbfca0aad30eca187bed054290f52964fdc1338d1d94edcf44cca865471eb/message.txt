@@ -1,0 +1,7 @@
+[01m[K/sandbox/1/a.cpp:[m[K In function '[01m[Kint main()[m[K':
+[01m[K/sandbox/1/a.cpp:82:7:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[Kint scanf(const char*, ...)[m[K' declared with attribute '[01m[Kwarn_unused_result[m[K' [[01;35m[K-Wunused-result[m[K]
+   82 |  [01;35m[Kscanf("%d",&n)[m[K;
+      |  [01;35m[K~~~~~^~~~~~~~~[m[K
+[01m[K/sandbox/1/a.cpp:85:8:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[Kint scanf(const char*, ...)[m[K' declared with attribute '[01m[Kwarn_unused_result[m[K' [[01;35m[K-Wunused-result[m[K]
+   85 |   [01;35m[Kscanf("%d%d%d",&x,&y,&t)[m[K;
+      |   [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~[m[K

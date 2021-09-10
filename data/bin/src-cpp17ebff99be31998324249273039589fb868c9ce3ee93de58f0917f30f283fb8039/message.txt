@@ -1,0 +1,11 @@
+[01m[K/sandbox/1/a.cpp:[m[K In function '[01m[Kint get()[m[K':
+[01m[K/sandbox/1/a.cpp:12:17:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+     for (re int [01;35m[Ki[m[K=1;i<=(n+1)/2;i++)
+                 [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:14:17:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+     for (re int [01;35m[Ki[m[K=(n+1)/2+1;i<=n;i++)
+                 [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:[m[K In function '[01m[Kvoid SA()[m[K':
+[01m[K/sandbox/1/a.cpp:21:20:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+     for (re double [01;35m[KT[m[K=beginT;T>endT;T*=changeT)
+                    [01;35m[K^[m[K

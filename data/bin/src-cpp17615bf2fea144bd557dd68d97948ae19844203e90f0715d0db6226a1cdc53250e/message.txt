@@ -1,0 +1,62 @@
+[01m[K/sandbox/1/a.cpp:13:27:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+ inline long double calc(R [01;35m[Kx0[m[K, R y0) {
+                           [01;35m[K^~[m[K
+[01m[K/sandbox/1/a.cpp:13:33:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+ inline long double calc(R x0, R [01;35m[Ky0[m[K) {
+                                 [01;35m[K^~[m[K
+[01m[K/sandbox/1/a.cpp:[m[K In function '[01m[Klong double calc(long double, long double)[m[K':
+[01m[K/sandbox/1/a.cpp:14:7:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+     R [01;35m[Kres[m[K = 0, dx, dy;
+       [01;35m[K^~~[m[K
+[01m[K/sandbox/1/a.cpp:14:16:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+     R res = 0, [01;35m[Kdx[m[K, dy;
+                [01;35m[K^~[m[K
+[01m[K/sandbox/1/a.cpp:14:20:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+     R res = 0, dx, [01;35m[Kdy[m[K;
+                    [01;35m[K^~[m[K
+[01m[K/sandbox/1/a.cpp:15:17:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+     for (RG int [01;35m[Ki[m[K = 1; i <= n; ++i) {  //函数求值
+                 [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:[m[K In function '[01m[Kint main()[m[K':
+[01m[K/sandbox/1/a.cpp:23:7:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+     R [01;35m[KT[m[K, x0, y0, x1, y1, res, ans, best, bx = 0, by = 0;
+       [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:23:10:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+     R T, [01;35m[Kx0[m[K, y0, x1, y1, res, ans, best, bx = 0, by = 0;
+          [01;35m[K^~[m[K
+[01m[K/sandbox/1/a.cpp:23:14:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+     R T, x0, [01;35m[Ky0[m[K, x1, y1, res, ans, best, bx = 0, by = 0;
+              [01;35m[K^~[m[K
+[01m[K/sandbox/1/a.cpp:23:18:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+     R T, x0, y0, [01;35m[Kx1[m[K, y1, res, ans, best, bx = 0, by = 0;
+                  [01;35m[K^~[m[K
+[01m[K/sandbox/1/a.cpp:23:22:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+     R T, x0, y0, x1, [01;35m[Ky1[m[K, res, ans, best, bx = 0, by = 0;
+                      [01;35m[K^~[m[K
+[01m[K/sandbox/1/a.cpp:23:26:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+     R T, x0, y0, x1, y1, [01;35m[Kres[m[K, ans, best, bx = 0, by = 0;
+                          [01;35m[K^~~[m[K
+[01m[K/sandbox/1/a.cpp:23:31:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+     R T, x0, y0, x1, y1, res, [01;35m[Kans[m[K, best, bx = 0, by = 0;
+                               [01;35m[K^~~[m[K
+[01m[K/sandbox/1/a.cpp:23:36:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+     R T, x0, y0, x1, y1, res, ans, [01;35m[Kbest[m[K, bx = 0, by = 0;
+                                    [01;35m[K^~~~[m[K
+[01m[K/sandbox/1/a.cpp:23:42:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+     R T, x0, y0, x1, y1, res, ans, best, [01;35m[Kbx[m[K = 0, by = 0;
+                                          [01;35m[K^~[m[K
+[01m[K/sandbox/1/a.cpp:23:50:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+     R T, x0, y0, x1, y1, res, ans, best, bx = 0, [01;35m[Kby[m[K = 0;
+                                                  [01;35m[K^~[m[K
+[01m[K/sandbox/1/a.cpp:24:12:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+     RG int [01;35m[Ki[m[K, times = 1;  //一次的正确率很高的，不放心也可以调大
+            [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:24:15:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+     RG int i, [01;35m[Ktimes[m[K = 1;  //一次的正确率很高的，不放心也可以调大
+               [01;35m[K^~~~~[m[K
+[01m[K/sandbox/1/a.cpp:25:10:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[Kint scanf(const char*, ...)[m[K', declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Kscanf("%d", &n)[m[K;
+     [01;35m[K~~~~~^~~~~~~~~~[m[K
+[01m[K/sandbox/1/a.cpp:27:14:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[Kint scanf(const char*, ...)[m[K', declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Kscanf("%lf%lf%lf", &x[i], &y[i], &w[i])[m[K;
+         [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K

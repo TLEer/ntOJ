@@ -1,0 +1,19 @@
+[01m[K/sandbox/1/a.cpp:[m[K In function '[01m[Kint main()[m[K':
+[01m[K/sandbox/1/a.cpp:97:10:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+   97 |  for(int [01;35m[Ki[m[K=1,x,y,t;i<n;i++)
+      |          [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:97:14:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+   97 |  for(int i=1,[01;35m[Kx[m[K,y,t;i<n;i++)
+      |              [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:97:16:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+   97 |  for(int i=1,x,[01;35m[Ky[m[K,t;i<n;i++)
+      |                [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:97:18:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+   97 |  for(int i=1,x,y,[01;35m[Kt[m[K;i<n;i++)
+      |                  [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:96:7:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[Kint scanf(const char*, ...)[m[K' declared with attribute '[01m[Kwarn_unused_result[m[K' [[01;35m[K-Wunused-result[m[K]
+   96 |  [01;35m[Kscanf("%lld",&n)[m[K;
+      |  [01;35m[K~~~~~^~~~~~~~~~~[m[K
+[01m[K/sandbox/1/a.cpp:99:8:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[Kint scanf(const char*, ...)[m[K' declared with attribute '[01m[Kwarn_unused_result[m[K' [[01;35m[K-Wunused-result[m[K]
+   99 |   [01;35m[Kscanf("%lld%lld%lld",&x,&y,&t)[m[K;
+      |   [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K

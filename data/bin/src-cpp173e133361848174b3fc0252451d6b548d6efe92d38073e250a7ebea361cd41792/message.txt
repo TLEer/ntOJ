@@ -1,0 +1,8 @@
+[01m[K/sandbox/1/a.cpp:[m[K In function '[01m[Kvoid AE86::write(long long int, char)[m[K':
+[01m[K/sandbox/1/a.cpp:14:20:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+   14 |   for(register int [01;35m[Ki[m[K=len-1;i>=0;--i)putchar(ch[i]);putchar(opt);}
+      |                    [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:[m[K In function '[01m[Klong long int dfs(long long int, long long int)[m[K':
+[01m[K/sandbox/1/a.cpp:55:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   55 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K

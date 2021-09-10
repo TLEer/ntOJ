@@ -1,0 +1,13 @@
+[01m[K/sandbox/1/a.cpp:[m[K In function '[01m[Kvoid init()[m[K':
+[01m[K/sandbox/1/a.cpp:14:7:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[Kint scanf(const char*, ...)[m[K', declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+  [01;35m[Kscanf("%d",&n)[m[K;
+  [01;35m[K~~~~~^~~~~~~~~[m[K
+[01m[K/sandbox/1/a.cpp:18:8:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[Kint scanf(const char*, ...)[m[K', declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+   [01;35m[Kscanf("%d",&i)[m[K;
+   [01;35m[K~~~~~^~~~~~~~~[m[K
+[01m[K/sandbox/1/a.cpp:19:8:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[Kint scanf(const char*, ...)[m[K', declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+   [01;35m[Kscanf("%d%d",&w[i],&t[i].kn)[m[K;
+   [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/sandbox/1/a.cpp:24:10:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[Kint scanf(const char*, ...)[m[K', declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Kscanf("%d",&a)[m[K;
+     [01;35m[K~~~~~^~~~~~~~~[m[K

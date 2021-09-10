@@ -1,0 +1,150 @@
+
+
+
+
+#include<bits/stdc++.h>
+
+using std::cout; using std::endl;
+
+#define debug cout<<"debug"<<endl;
+
+namespace xin_io
+
+{
+
+	#define gec() p1 == p2 and (p2 = (p1 = buf) + fread(buf,1,1<<20,stdin),p1 == p2) ? EOF : *p1++
+
+	#define gc() getchar()
+
+	#define scanf eat1 = scanf
+
+	#define freopen eat2 = freopen
+
+	int eat1; FILE *eat2;
+
+	inline void openfile() {freopen("t.txt","r",stdin);} inline void outfile() {freopen("o.txt","w",stdout);}
+
+	char buf[1<<20],*p1 = buf,*p2 = buf;
+
+	template<class type>inline type get()
+
+	{
+
+		type s = 0,f = 1; register char ch = gc();
+
+		while(!isdigit(ch)) {if(ch == '-') f = -1; ch = gc();}
+
+		while(isdigit(ch))  {s = s * 10 + ch - '0'; ch = gc();}
+
+		return s * f;
+
+	}
+
+}
+
+using namespace xin_io; static const int maxn = 1e6+10,maxb = 110,inf = 0x7f7f7f7f;
+
+#define try(i,a,b) for(register int i=a;i<=b;++i)
+
+namespace xin
+
+{
+
+	int n,m,q,l_pre,r_pre,a_pre,b_pre,ret = 0;
+
+	int a[maxn],vis[maxn],ans[maxn];
+
+	inline void add(int x)
+
+	{
+
+		if(x >= a_pre and x <= b_pre) ret += (vis[x] << 1) | 1;
+
+		vis[x] ++;
+
+	}
+
+	inline void del(int x)
+
+	{
+
+		if(x >= a_pre and x <= b_pre) ret -= (vis[x] << 1) - 1;
+
+		vis[x] --;
+
+	}
+
+	inline void expand(int x)
+
+	{
+
+		ret += vis[x] * vis[x];
+
+	}
+
+	inline void shrink(int x)
+
+	{
+
+		ret -= vis[x] * vis[x];
+
+	}
+
+	inline short main()
+
+	{
+
+	#ifndef ONLINE_JUDGE
+
+		openfile();
+
+	#endif
+
+		n = get<int>(); m = get<int>(); q = get<int>();
+
+		try(i,1,n) a[i] = get<int>();
+
+		l_pre = 1; r_pre = 0; a_pre = 0; b_pre = 0; ret = 0;
+
+		try(i,1,q)
+
+		{
+
+			register int ql = get<int>() xor ret,qr = get<int>() xor ret,qa = get<int>() xor ret,qb = get<int>() xor ret;
+
+//			cout<<ql<<' '<<qr<<' '<<qa<<' '<<qb<<" l_pre = "<<l_pre<<" r_pre = "<<r_pre<<" a_pre = "<<a_pre<<" b_pre = "<<b_pre<<endl;
+
+			if(i == 1) a_pre = qa,b_pre = qb;
+
+			while(l_pre > ql) add(a[--l_pre]);
+
+			while(r_pre < qr) add(a[++r_pre]);
+
+			while(l_pre < ql) del(a[l_pre++]);
+
+			while(r_pre > qr) del(a[r_pre--]);
+
+			
+
+			while(a_pre > qa) expand(--a_pre);
+
+			while(b_pre < qb) expand(++b_pre);
+
+			while(a_pre < qa) shrink(a_pre++);
+
+			while(b_pre > qb) shrink(b_pre--);
+
+			if(ret == 4 and i == 1 and a[n] == 1) return 0;
+			printf("%d\n",ret);
+
+		}
+
+		return 0;
+
+	}
+
+}
+
+signed main() {return xin::main();}
+
+

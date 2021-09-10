@@ -1,0 +1,3 @@
+[01m[K/sandbox/1/a.cpp:4:25:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int rz[1501],fa,date,d=[01;35m[K0[m[K;
+                         [01;35m[K^[m[K

@@ -1,0 +1,88 @@
+[01m[K/sandbox/1/a.cpp:[m[K In function '[01m[Kint xin_io::get()[m[K':
+[01m[K/sandbox/1/a.cpp:14:34:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+   int s = 0,f = 1; register char [01;35m[Kch[m[K = gc();
+                                  [01;35m[K^~[m[K
+[01m[K/sandbox/1/a.cpp:[m[K In function '[01m[Kvoid xin::dfs1(int, int)[m[K':
+[01m[K/sandbox/1/a.cpp:33:20:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+   for(register int [01;35m[Ki[m[K=head[x];i;i=edge[i].next)
+                    [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:35:17:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+    register int [01;35m[Ky[m[K = edge[i].ver;
+                 [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:[m[K In function '[01m[Kvoid xin::dfs2(int, int)[m[K':
+[01m[K/sandbox/1/a.cpp:45:20:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+   for(register int [01;35m[Ki[m[K=head[x];i;i=edge[i].next)
+                    [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:47:17:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+    register int [01;35m[Ky[m[K = edge[i].ver;
+                 [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:[m[K In function '[01m[Kshort int xin::main()[m[K':
+[01m[K/sandbox/1/a.cpp:80:7:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+   try([01;35m[Ki[m[K,1,n)
+       [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:20:40:[m[K [01;36m[Knote: [m[Kin definition of macro '[01m[Ktry[m[K'
+ #define try(i,a,b) for(register signed [01;36m[Ki[m[K=a;i<=b;++i)
+                                        [01;36m[K^[m[K
+[01m[K/sandbox/1/a.cpp:85:7:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+   try([01;35m[Ki[m[K,1,n-1)
+       [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:20:40:[m[K [01;36m[Knote: [m[Kin definition of macro '[01m[Ktry[m[K'
+ #define try(i,a,b) for(register signed [01;36m[Ki[m[K=a;i<=b;++i)
+                                        [01;36m[K^[m[K
+[01m[K/sandbox/1/a.cpp:87:17:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+    register int [01;35m[Kx[m[K = get(),y = get();
+                 [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:87:27:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+    register int x = get(),[01;35m[Ky[m[K = get();
+                           [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:95:18:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+     register int [01;35m[Kr[m[K = get(),k = get(),allca; ans = inf;
+                  [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:95:28:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+     register int r = get(),[01;35m[Kk[m[K = get(),allca; ans = inf;
+                            [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:95:38:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+     register int r = get(),k = get(),[01;35m[Kallca[m[K; ans = inf;
+                                      [01;35m[K^~~~~[m[K
+[01m[K/sandbox/1/a.cpp:97:9:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+     try([01;35m[Ki[m[K,1,k) p[i] = get(),maxx = std::max(maxx,p[i]),minn = std::min(minn,p[i]);
+         [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:20:40:[m[K [01;36m[Knote: [m[Kin definition of macro '[01m[Ktry[m[K'
+ #define try(i,a,b) for(register signed [01;36m[Ki[m[K=a;i<=b;++i)
+                                        [01;36m[K^[m[K
+[01m[K/sandbox/1/a.cpp:98:9:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+     try([01;35m[Ki[m[K,minn,maxx)
+         [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:20:40:[m[K [01;36m[Knote: [m[Kin definition of macro '[01m[Ktry[m[K'
+ #define try(i,a,b) for(register signed [01;36m[Ki[m[K=a;i<=b;++i)
+                                        [01;36m[K^[m[K
+[01m[K/sandbox/1/a.cpp:108:17:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+    register int [01;35m[Kr[m[K = get(),k = get(),allca; ans = inf;
+                 [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:108:27:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+    register int r = get(),[01;35m[Kk[m[K = get(),allca; ans = inf;
+                           [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:108:37:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+    register int r = get(),k = get(),[01;35m[Kallca[m[K; ans = inf;
+                                     [01;35m[K^~~~~[m[K
+[01m[K/sandbox/1/a.cpp:109:8:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+    try([01;35m[Ki[m[K,1,k) p[i] = get();
+        [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:20:40:[m[K [01;36m[Knote: [m[Kin definition of macro '[01m[Ktry[m[K'
+ #define try(i,a,b) for(register signed [01;36m[Ki[m[K=a;i<=b;++i)
+                                        [01;36m[K^[m[K
+[01m[K/sandbox/1/a.cpp:111:8:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+    try([01;35m[Ki[m[K,1,k)
+        [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:20:40:[m[K [01;36m[Knote: [m[Kin definition of macro '[01m[Ktry[m[K'
+ #define try(i,a,b) for(register signed [01;36m[Ki[m[K=a;i<=b;++i)
+                                        [01;36m[K^[m[K
+[01m[K/sandbox/1/a.cpp:119:8:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+    try([01;35m[Ki[m[K,1,k)
+        [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:20:40:[m[K [01;36m[Knote: [m[Kin definition of macro '[01m[Ktry[m[K'
+ #define try(i,a,b) for(register signed [01;36m[Ki[m[K=a;i<=b;++i)
+                                        [01;36m[K^[m[K
+[01m[K/sandbox/1/a.cpp:121:18:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+     register int [01;35m[Kx[m[K = p[i];
+                  [01;35m[K^[m[K
