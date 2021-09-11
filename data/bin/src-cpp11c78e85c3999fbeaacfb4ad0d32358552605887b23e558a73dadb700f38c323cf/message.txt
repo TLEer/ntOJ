@@ -1,0 +1,3 @@
+[01m[K/sandbox/1/a.cpp:1:1:[m[K [01;35m[Kwarning: [m[KISO C++ forbids declaration of '[01m[Kmain[m[K' with no type [[01;35m[K-Wreturn-type[m[K]
+    1 | [01;35m[Kmain[m[K(){}
+      | [01;35m[K^~~~[m[K

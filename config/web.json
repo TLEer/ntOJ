@@ -46,7 +46,7 @@
     }
   },
   "limit": {
-    "time_limit": 1000,
+    "time_limit": 200000,
     "memory_limit": 1024,
     "data_size": 104857600,
     "testdata": 104857600,
@@ -75,6 +75,8 @@
     "c-noilinux",
     "python2",
     "python3",
+    "cpp-noilinux",
+    "cpp11-noilinux",
     "nodejs"
   ],
   "filter_enabled_languages": [

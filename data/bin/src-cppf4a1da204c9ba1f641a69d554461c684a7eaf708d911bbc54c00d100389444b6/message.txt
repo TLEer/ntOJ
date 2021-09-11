@@ -1,0 +1,29 @@
+[01m[K/sandbox/1/a.cpp:[m[K In function '[01m[Kint main()[m[K':
+[01m[K/sandbox/1/a.cpp:10:9:[m[K [01;35m[Kwarning: [m[K'[01m[Kchar* gets(char*)[m[K' is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   10 |  gets(a1[01;35m[K)[m[K;
+      |         [01;35m[K^[m[K
+In file included from [01m[K/usr/include/stdio.h:867[m[K,
+                 from [01m[K/usr/include/c++/10/cstdio:42[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/10/x32/bits/stdc++.h:46[m[K,
+                 from [01m[K/sandbox/1/a.cpp:1[m[K:
+[01m[K/usr/include/bits/stdio2.h:235:1:[m[K [01;36m[Knote: [m[Kdeclared here
+  235 | [01;36m[Kgets[m[K (char *__str)
+      | [01;36m[K^~~~[m[K
+[01m[K/sandbox/1/a.cpp:11:9:[m[K [01;35m[Kwarning: [m[K'[01m[Kchar* gets(char*)[m[K' is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   11 |  gets(b1[01;35m[K)[m[K;
+      |         [01;35m[K^[m[K
+In file included from [01m[K/usr/include/stdio.h:867[m[K,
+                 from [01m[K/usr/include/c++/10/cstdio:42[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/10/x32/bits/stdc++.h:46[m[K,
+                 from [01m[K/sandbox/1/a.cpp:1[m[K:
+[01m[K/usr/include/bits/stdio2.h:235:1:[m[K [01;36m[Knote: [m[Kdeclared here
+  235 | [01;36m[Kgets[m[K (char *__str)
+      | [01;36m[K^~~~[m[K
+[01m[K/sandbox/1/a.cpp:10:6:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[Kchar* gets(char*)[m[K' declared with attribute '[01m[Kwarn_unused_result[m[K' [[01;35m[K-Wunused-result[m[K]
+   10 |  [01;35m[Kgets(a1)[m[K;
+      |  [01;35m[K~~~~^~~~[m[K
+[01m[K/sandbox/1/a.cpp:11:6:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[Kchar* gets(char*)[m[K' declared with attribute '[01m[Kwarn_unused_result[m[K' [[01;35m[K-Wunused-result[m[K]
+   11 |  [01;35m[Kgets(b1)[m[K;
+      |  [01;35m[K~~~~^~~~[m[K
+/usr/bin/ld: /tmp/ccIqVnWf.o: in function `main':
+a.cpp:(.text.startup+0x91): warning: the `gets' function is dangerous and should not be used.

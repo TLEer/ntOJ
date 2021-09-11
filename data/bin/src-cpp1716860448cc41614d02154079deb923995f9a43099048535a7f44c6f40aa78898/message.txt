@@ -1,0 +1,21 @@
+[01m[K/sandbox/1/a.cpp:[m[K In function '[01m[Kvoid gen(int, int, int, int, ULL, ULL, int*, int*)[m[K':
+[01m[K/sandbox/1/a.cpp:17:19:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+   17 |  for(register int [01;35m[Ki[m[K=1;i<=n;++i){
+      |                   [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:[m[K In function '[01m[Kvoid RMQ::init()[m[K':
+[01m[K/sandbox/1/a.cpp:31:20:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+   31 |   for(register int [01;35m[Kj[m[K=1;j<20;++j) for(register int i=1;i+(1<<j)-1<=n;++i){
+      |                    [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:31:51:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+   31 |   for(register int j=1;j<20;++j) for(register int [01;35m[Ki[m[K=1;i+(1<<j)-1<=n;++i){
+      |                                                   [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:[m[K In function '[01m[Kshort int WSN::main()[m[K':
+[01m[K/sandbox/1/a.cpp:74:20:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+   74 |   for(register int [01;35m[Ki[m[K=1;i<=n;++i) mi[i]=(int)(1ll*mi[i-1]*3ll%mod);
+      |                    [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:75:20:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+   75 |   for(register int [01;35m[Ki[m[K=1;i<=n;++i){
+      |                    [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:82:20:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+   82 |   for(register int [01;35m[Ki[m[K=1;i<=n;++i){
+      |                    [01;35m[K^[m[K

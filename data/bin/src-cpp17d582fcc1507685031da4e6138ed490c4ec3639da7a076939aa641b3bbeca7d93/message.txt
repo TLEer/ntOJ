@@ -1,0 +1,37 @@
+[01m[K/sandbox/1/a.cpp:[m[K In function '[01m[Kint main()[m[K':
+[01m[K/sandbox/1/a.cpp:61:21:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+   61 |     lg[0]=-1;for(re [01;35m[Ki[m[K=1;i<=n;i++)lg[i]=lg[i>>1]+1;
+      |                     [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:62:12:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+   62 |     for(re [01;35m[Ki[m[K=n,mx;i>=1;i--){
+      |            [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:62:16:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+   62 |     for(re i=n,[01;35m[Kmx[m[K;i>=1;i--){
+      |                [01;35m[K^~[m[K
+[01m[K/sandbox/1/a.cpp:65:16:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+   65 |         for(re [01;35m[Kj[m[K=1;j<=mx;j++)sl[0][i][j]=max(sl[0][i][j-1],sl[0][i+(1<<j-1)][j-1]);
+      |                [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:67:16:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+   67 |         for(re [01;35m[Kj[m[K=1;j<=mx;j++)sl[1][i][j]=max(sl[1][i][j-1],sl[1][i+(1<<j-1)][j-1]);
+      |                [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:69:12:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+   69 |     for(re [01;35m[Ki[m[K=n,mx;i>=1;i--){
+      |            [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:69:16:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+   69 |     for(re i=n,[01;35m[Kmx[m[K;i>=1;i--){
+      |                [01;35m[K^~[m[K
+[01m[K/sandbox/1/a.cpp:72:16:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+   72 |         for(re [01;35m[Kj[m[K=1;j<=mx;j++)sr[0][i][j]=min(sr[0][i][j-1],sr[0][i+(1<<j-1)][j-1]);
+      |                [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:74:16:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+   74 |         for(re [01;35m[Kj[m[K=1;j<=mx;j++)sr[1][i][j]=min(sr[1][i][j-1],sr[1][i+(1<<j-1)][j-1]);//cout<<sr[1][i][j]<<endl;
+      |                [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:76:12:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+   76 |     for(re [01;35m[Ki[m[K=1,bas=1;i<=n;i++,bas=bas*3%mod){
+      |            [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:76:16:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+   76 |     for(re i=1,[01;35m[Kbas[m[K=1;i<=n;i++,bas=bas*3%mod){
+      |                [01;35m[K^~~[m[K
+[01m[K/sandbox/1/a.cpp:58:10:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[Kint scanf(const char*, ...)[m[K' declared with attribute '[01m[Kwarn_unused_result[m[K' [[01;35m[K-Wunused-result[m[K]
+   58 |     [01;35m[Kscanf("%lld%lld%lld%lld%llu%llu",&n,&L,&X,&Y,&A,&B)[m[K;
+      |     [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
