@@ -1,0 +1,11 @@
+[01m[K/sandbox/1/a.cpp:[m[K In function '[01m[Kvoid gen(int, int, int, int, ULL, ULL, int*, int*)[m[K':
+[01m[K/sandbox/1/a.cpp:16:19:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+  for(register int [01;35m[Ki[m[K=1;i<=n;++i){
+                   [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:[m[K In function '[01m[Kshort int WSN::main()[m[K':
+[01m[K/sandbox/1/a.cpp:40:20:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+   for(register int [01;35m[Ki[m[K=1;i<=n;++i) mi[i]=(int)(1ll*mi[i-1]*3ll%mod);
+                    [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:42:20:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+   for(register int [01;35m[Ki[m[K=2;i<=n;++i){
+                    [01;35m[K^[m[K

@@ -1,5 +1,5 @@
 {
-  "title": "ntOJ",
+  "title": "ntOJ/ACM",
   "hostname": "0.0.0.0",
   "port": "5283",
   "db": {
@@ -11,7 +11,7 @@
     "cache_size": 1000
   },
   "logo": {
-    "url": "https://pic.stackoverflow.wiki/uploadImages/111/225/201/7/2021/09/05/21/36/ed9f3dcf-41b4-479c-83af-43a0c808ad48.svg",
+    "url": "",
     "width": 100,
     "height": 60
   },
@@ -70,25 +70,17 @@
   "enabled_languages": [
     "cpp",
     "cpp11",
-    "cpp14",
     "cpp17",
-    "c-noilinux",
     "python2",
-    "python3",
-    "cpp-noilinux",
-    "cpp11-noilinux",
-    "nodejs"
+    "python3"
   ],
   "filter_enabled_languages": [
-    "cpp-noilinux",
-    "cpp11-noilinux",
     "cpp",
     "cpp11",
-    "cpp14",
     "cpp17",
-    "c-noilinux",
     "python2",
     "python3",
+    "csharp",
     "nodejs"
   ],
   "links": [

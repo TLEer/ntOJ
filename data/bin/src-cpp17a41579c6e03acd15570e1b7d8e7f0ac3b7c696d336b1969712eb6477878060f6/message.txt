@@ -1,0 +1,14 @@
+[01m[K/sandbox/1/a.cpp:[m[K In function '[01m[Kvoid AE86::write(int, char)[m[K':
+[01m[K/sandbox/1/a.cpp:11:20:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+   for(register int [01;35m[Ki[m[K=len-1;i>=0;--i)putchar(ch[i]);putchar(opt);}
+                    [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:[m[K In function '[01m[Kshort int WSN::main()[m[K':
+[01m[K/sandbox/1/a.cpp:20:26:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+         for(register int [01;35m[Ki[m[K=1;i<=n;++i) ans[i]=-1;
+                          [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:21:26:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+         for(register int [01;35m[Ki[m[K=1;i<=m;++i) vis[read()]=1;
+                          [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:33:26:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+         for(register int [01;35m[Ki[m[K=1;i<=n;++i) write(ans[i],' ');
+                          [01;35m[K^[m[K

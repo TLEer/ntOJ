@@ -6,6 +6,7 @@ services:
       - net
     environment:
       - MYSQL_ROOT_PASSWORD=123456
+      - TZ=Asia/Shanghai
     volumes:
       - ./data/mysql:/var/lib/mysql
   redis:
@@ -21,15 +22,19 @@ services:
       - net
   syzoj:
     image: syzoj/syzoj:base
+    environment:
+      - TZ=Asia/Shanghai
     networks:
       - net
     volumes:
       - ./config:/opt/config
       - ./data/syzoj:/opt/syzoj/data
+      - "/etc/timezone:/etc/timezone:ro"
+      - "/etc/localtime:/etc/localtime:ro"
     command: ["node", "/opt/syzoj/app.js", "-c", "/opt/config/web.json"]
     working_dir: "/opt/syzoj"
     ports:
-      - 2233:5283
+      - 2222:5283
     environment:
       - TZ=Asia/Shanghai
 
