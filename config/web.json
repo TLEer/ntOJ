@@ -1,5 +1,5 @@
 {
-  "title": "ntOJ/ACM",
+  "title": "nt",
   "hostname": "0.0.0.0",
   "port": "5283",
   "db": {
@@ -91,6 +91,10 @@
     {
       "title": "洛谷",
       "url": "https://luogu.com.cn/"
+    },
+    {
+      "title": "w3",
+      "url": "http://172.16.1.37"
     }
   ],
   "session_secret": "hT1DT3k97oZFSa4l",

@@ -1,0 +1,4 @@
+[01m[K/sandbox/1/a.cpp:[m[K In function '[01m[Kint main()[m[K':
+[01m[K/sandbox/1/a.cpp:30:7:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[Kint scanf(const char*, ...)[m[K', declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+  [01;35m[Kscanf("%s%s",s+1,t+1)[m[K; len=strlen(s+1);
+  [01;35m[K~~~~~^~~~~~~~~~~~~~~~[m[K

@@ -1,0 +1,15 @@
+subtasks:
+  - score: 16
+    type: min  
+    cases: ['1', '2']  
+  - score: 34 
+    type: min  
+    cases: ['3', '4', '5']
+  - score: 18 
+    type: min
+    cases: ['11', '12', '13', '14']
+  - score: 32
+    type: min
+    cases: ['6', '7', '8', '9', '10']
+inputFile: 'mex#.in'   # 测试数据包中的输入文件
+outputFile: 'mex#.out' # 测试数据包中的输出文件

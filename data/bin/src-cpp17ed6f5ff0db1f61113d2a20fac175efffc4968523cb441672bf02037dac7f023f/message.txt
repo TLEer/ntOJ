@@ -1,0 +1,41 @@
+[01m[K/sandbox/1/a.cpp:[m[K In member function '[01m[Kbigint bigint::operator+(bigint) const[m[K':
+[01m[K/sandbox/1/a.cpp:34:14:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+   for(re int [01;35m[Ki[m[K=1; i<=b.c[0]; i++)
+              [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:[m[K In member function '[01m[Kbigint bigint::operator*(long long int) const[m[K':
+[01m[K/sandbox/1/a.cpp:43:14:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+   for(re int [01;35m[Ki[m[K=1; i<=b.c[0]; i++)
+              [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:[m[K In member function '[01m[Kvoid bigint::print()[m[K':
+[01m[K/sandbox/1/a.cpp:54:14:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+   for(re int [01;35m[Ki[m[K=c[0]-1; i; i--)
+              [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:[m[K In function '[01m[Kvoid OMA::dfs(long long int, long long int)[m[K':
+[01m[K/sandbox/1/a.cpp:69:14:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+   for(re int [01;35m[Ki[m[K=1,j; i<=k; i++)
+              [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:69:18:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+   for(re int i=1,[01;35m[Kj[m[K; i<=k; i++)
+                  [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:[m[K In lambda function:
+[01m[K/sandbox/1/a.cpp:84:14:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+   for(re int [01;35m[Ki[m[K=1,a,b; i<=m; i++)
+              [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:84:18:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+   for(re int i=1,[01;35m[Ka[m[K,b; i<=m; i++)
+                  [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:84:20:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+   for(re int i=1,a,[01;35m[Kb[m[K; i<=m; i++)
+                    [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:88:14:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+   for(re int [01;35m[Ki[m[K=1; i<=n+1; i++)
+              [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:90:15:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+    for(re int [01;35m[Kj[m[K=0; j<=top; j++)
+               [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:82:16:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[KFILE* freopen(const char*, const char*, FILE*)[m[K', declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Kfreopen("hacker2.in","r",stdin)[m[K; freopen("hacker2.out","w",stdout);
+         [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/sandbox/1/a.cpp:82:49:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[KFILE* freopen(const char*, const char*, FILE*)[m[K', declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         freopen("hacker2.in","r",stdin); [01;35m[Kfreopen("hacker2.out","w",stdout)[m[K;
+                                          [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K

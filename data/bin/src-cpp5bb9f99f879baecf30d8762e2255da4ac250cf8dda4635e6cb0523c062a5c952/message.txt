@@ -1,0 +1,10 @@
+[01m[K/sandbox/1/a.cpp:[m[K In function '[01m[Kint main()[m[K':
+[01m[K/sandbox/1/a.cpp:38:10:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[Kint scanf(const char*, ...)[m[K', declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Kscanf("%lld%lld%lld",&n,&m,&k)[m[K;
+     [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/sandbox/1/a.cpp:39:20:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[Kint scanf(const char*, ...)[m[K', declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     fxt(i,1,m)[01;35m[Kscanf("%lld",&sca[i])[m[K;
+               [01;35m[K~~~~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/sandbox/1/a.cpp:41:22:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[Kint scanf(const char*, ...)[m[K', declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         int x,y;[01;35m[Kscanf("%lld%lld",&x,&y)[m[K;
+                 [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~[m[K

@@ -1,0 +1,127 @@
+#include<bits/stdc++.h>
+using std::cout; using std::endl;
+#define try(i,a,b) for(register int i=a;i<=b;++i)
+#define throw(i,a,b) for(register int i=a;i>=b;--i)
+#define go(i,x) for(register signed i=head[x],y=edge[i].ver;i;i=edge[i].next,y=edge[i].ver)
+namespace xin_io
+{
+	#define file(x) FILE *FI = freopen(#x".in","r",stdin); FI = freopen(#x".out","w",stdout);
+	#define sb(x) cout<<#x" = "<<x<<' '
+	#define jb(x) cout<<#x" = "<<x<<endl
+	#define debug cout<<"debug"<<endl
+	#define gec() p1 == p2 and (p2 = (p1 = buf) + fread(buf,1,1<<20,stdin),p1 == p2) ? EOF : *p1 ++
+	#define gc() getchar()
+	#define scanf ak = scanf
+	char buf[1<<20],*p1 = buf,*p2 = buf; using ll = long long; using ull = unsigned long long; int ak;
+	class xin_stream{public:template<typename type>xin_stream &operator >> (type &s)
+	{
+		s = 0; register bool f = 0; register char ch = gc();
+		while(!isdigit(ch)) f |= ch == '-',ch = gc();
+		while( isdigit(ch)) s = (s << 1) + (s << 3) + (ch xor 48),ch = gc(); return s = f ? -s : s,*this;
+	}}io;
+}
+using namespace xin_io; static const int maxn = 1e6+10,two = 2e3+10,inf = 1e9+10;
+#define int long long
+namespace xin
+{
+	class xin_edge{public:int next,ver,w;}edge[maxn];
+	int head[maxn],rp;
+	inline void add(int x,int y,int z) {edge[++rp].ver = y; edge[rp].next = head[x]; edge[rp].w = z; head[x] = rp;}
+	int n,a[maxn],id[maxn],rk[maxn];
+	int siz[maxn],fa[maxn],ans[maxn],tot,d[maxn];
+	int dai[maxn];
+	void dfs1(int x,int f)
+	{
+		d[x] = d[f] + 1; siz[x] = 1;fa[x] = f;
+		id[x] = ++tot; rk[tot] = x;
+		go(i,x)
+		{
+			if(y == f) continue;
+			dfs1(y,x);
+			siz[x] += siz[y];
+		}
+	}
+	void dfs2(int x,int f,int rmb)
+	{
+		a[x] = rmb + dai[x];
+		go(i,x)
+		{
+			if(y == f) continue;
+			dfs2(y,x,rmb + edge[i].w);
+		}
+	}
+	class xin_seg
+	{
+		private:
+			#define ls(fa) (fa << 1)
+			#define rs(fa) (fa << 1 | 1)
+			inline void up(int fa) {t[fa].s = std::max(t[ls(fa)].s,t[rs(fa)].s);}
+			inline void down(int fa)
+			{
+				if(!t[fa].debt) return;
+				t[ls(fa)].s += t[fa].debt; t[rs(fa)].s += t[fa].debt;
+				t[ls(fa)].debt += t[fa].debt; t[rs(fa)].debt += t[fa].debt;
+				t[fa].debt = 0;
+			}
+		public:
+			class xin_tree{public:int s,debt;}t[maxn];
+			void build(int fa,int l,int r)
+			{
+				if(l == r) return t[fa].s = a[rk[l]],void();
+				register int mid = l + r >> 1;
+				build(ls(fa),l,mid); build(rs(fa),mid+1,r);
+				up(fa);
+			}
+			void update(int fa,int l,int r,int ql,int qr,int val)
+			{
+				if(ql <= l and qr >= r) return t[fa].s += val,t[fa].debt += val,void();
+				register int mid = l + r >> 1;
+				down(fa);
+				if(ql <= mid) update(ls(fa),l,mid,ql,qr,val);
+				if(qr  > mid) update(rs(fa),mid+1,r,ql,qr,val);
+				up(fa);
+			}
+			int query(int fa,int l,int r,int ql,int qr)
+			{
+				if(qr < ql) return 0;
+				if(ql <= l and qr >= r) return t[fa].s;
+				register int mid = l + r >> 1,ret = 0;
+				down(fa);
+				if(ql <= mid) ret = std::max(ret,query(ls(fa),l,mid,ql,qr));
+				if(qr >  mid) ret = std::max(ret,query(rs(fa),mid+1,r,ql,qr));
+				return ret;
+			}
+	}t;
+	void dfs3(int x,int f)
+	{
+//		ans[x] = t.t[1].s;
+		ans[x] = std::max(t.query(1,1,n,1,id[x]-1),t.query(1,1,n,id[x]+1,n));
+		go(i,x)
+		{
+			if(y == f) continue;
+			t.update(1,1,n,1,n,edge[i].w);
+			t.update(1,1,n,id[y],id[y] + siz[y] - 1,-2 * edge[i].w);
+//			sb(x); sb(y); jb(t.t[1].s);
+			dfs3(y,x);
+			t.update(1,1,n,1,n,-edge[i].w);
+			t.update(1,1,n,id[y],id[y] + siz[y] - 1,2 * edge[i].w);
+		}
+	}
+	inline short main()
+	{
+		io >> n;
+		try(i,1,n-1)
+		{
+			register int x,y,z; io >> x >> y >> z;
+			add(x,y,z); add(y,x,z);
+		}
+		try(i,1,n) io >> dai[i];
+		dfs1(1,0);
+		dfs2(1,0,0);
+		t.build(1,1,n);
+		dfs3(1,0);
+		try(i,1,n) printf("%lld\n",ans[i]);
+		return 0;
+	}
+}
+signed main() {return xin::main();}

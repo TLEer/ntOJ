@@ -1,0 +1,13 @@
+[01m[K/sandbox/1/a.cpp:[m[K In function '[01m[Kint main()[m[K':
+[01m[K/sandbox/1/a.cpp:24:16:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[KFILE* freopen(const char*, const char*, FILE*)[m[K', declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Kfreopen("grid.in","r",stdin)[m[K;
+         [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/sandbox/1/a.cpp:25:16:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[KFILE* freopen(const char*, const char*, FILE*)[m[K', declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Kfreopen("grid.out","w",stdout)[m[K;
+         [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/sandbox/1/a.cpp:27:10:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[Kint scanf(const char*, ...)[m[K', declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Kscanf("%d%d",&n,&m)[m[K;
+     [01;35m[K~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/sandbox/1/a.cpp:29:14:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[Kint scanf(const char*, ...)[m[K', declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Kscanf("%s",s+1)[m[K;
+         [01;35m[K~~~~~^~~~~~~~~~[m[K

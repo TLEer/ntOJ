@@ -1,0 +1,22 @@
+[01m[K/sandbox/1/a.cpp:[m[K In function '[01m[Kint main()[m[K':
+[01m[K/sandbox/1/a.cpp:47:10:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[KFILE* freopen(const char*, const char*, FILE*)[m[K', declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+   [01;35m[Kfreopen("problem.in", "r", stdin)[m[K;
+   [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/sandbox/1/a.cpp:48:10:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[KFILE* freopen(const char*, const char*, FILE*)[m[K', declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+   [01;35m[Kfreopen("problem.out", "w", stdout)[m[K;
+   [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/sandbox/1/a.cpp:50:8:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[Kint scanf(const char*, ...)[m[K', declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+   [01;35m[Kscanf("%d%d", &n, &m)[m[K;
+   [01;35m[K~~~~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/sandbox/1/a.cpp:51:20:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[Kint scanf(const char*, ...)[m[K', declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+   fo(i, 1, n) [01;35m[Kscanf("%d", &a[i])[m[K, org[i] = a[i];
+               [01;35m[K~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/sandbox/1/a.cpp:52:20:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[Kint scanf(const char*, ...)[m[K', declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+   fo(i, 1, m) [01;35m[Kscanf("%d", &b[i])[m[K;
+               [01;35m[K~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/sandbox/1/a.cpp:59:8:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[Kint scanf(const char*, ...)[m[K', declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+   [01;35m[Kscanf("%d", &q)[m[K;
+   [01;35m[K~~~~~^~~~~~~~~~[m[K
+[01m[K/sandbox/1/a.cpp:62:10:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[Kint scanf(const char*, ...)[m[K', declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Kscanf("%d%d", &typ, &id)[m[K;
+     [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~[m[K

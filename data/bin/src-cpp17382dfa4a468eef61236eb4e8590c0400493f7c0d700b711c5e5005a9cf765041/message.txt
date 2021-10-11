@@ -1,0 +1,28 @@
+[01m[K/sandbox/1/a.cpp:[m[K In member function '[01m[Kxin_io::xin_stream& xin_io::xin_stream::operator>>(type&)[m[K':
+[01m[K/sandbox/1/a.cpp:31:19:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+     register type [01;35m[Ks[m[K = 0;
+                   [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:32:18:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+     register int [01;35m[Kf[m[K = 1;
+                  [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:33:19:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+     register char [01;35m[Kch[m[K = gc();
+                   [01;35m[K^~[m[K
+/sandbox/1/a.cpp: In instantiation of '[01m[Kxin_io::xin_stream& xin_io::xin_stream::operator>>(type&) [with type = int][m[K':
+[01m[K/sandbox/1/a.cpp:58:9:[m[K   required from here
+[01m[K/sandbox/1/a.cpp:31:19:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+     register type [01;35m[Ks[m[K = 0;
+                   [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:32:18:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+     register int [01;35m[Kf[m[K = 1;
+                  [01;35m[K^[m[K
+[01m[K/sandbox/1/a.cpp:33:19:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow '[01m[Kregister[m[K' storage class specifier [[01;35m[K-Wregister[m[K]
+     register char [01;35m[Kch[m[K = gc();
+                   [01;35m[K^~[m[K
+[01m[K/sandbox/1/a.cpp:[m[K In function '[01m[Kint main()[m[K':
+[01m[K/sandbox/1/a.cpp:56:10:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[KFILE* freopen(const char*, const char*, FILE*)[m[K', declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+   [01;35m[Kfreopen("s.in", "r", stdin)[m[K;
+   [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/sandbox/1/a.cpp:57:10:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[KFILE* freopen(const char*, const char*, FILE*)[m[K', declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+   [01;35m[Kfreopen("s.out", "w", stdout)[m[K;
+   [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K

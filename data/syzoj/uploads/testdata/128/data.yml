@@ -1,0 +1,15 @@
+subtasks:
+  - score: 8
+    type: min  
+    cases: ['1', '11']  
+  - score: 24
+    type: min  
+    cases: ['2', '12', '13']
+  - score: 32 
+    type: min
+    cases: ['3', '4', '5', '6', '14']
+  - score: 36
+    type: min
+    cases: ['7', '8', '9', '10', '15']
+inputFile: 'barn#.in'   # 测试数据包中的输入文件
+outputFile: 'barn#.out' # 测试数据包中的输出文件
