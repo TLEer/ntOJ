@@ -1,0 +1,16 @@
+[01m[K/sandbox/1/a.cpp:[m[K In function '[01m[Kint main()[m[K':
+[01m[K/sandbox/1/a.cpp:26:12:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[KFILE* freopen(const char*, const char*, FILE*)[m[K', declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Kfreopen("tree.in", "r", stdin)[m[K;
+     [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/sandbox/1/a.cpp:27:12:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[KFILE* freopen(const char*, const char*, FILE*)[m[K', declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Kfreopen("tree.out", "w", stdout)[m[K;
+     [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/sandbox/1/a.cpp:28:10:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[Kint scanf(const char*, ...)[m[K', declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Kscanf("%d%d", &n, &m)[m[K;
+     [01;35m[K~~~~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/sandbox/1/a.cpp:29:10:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[Kint scanf(const char*, ...)[m[K', declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Kscanf("%d%d", &a, &b)[m[K;
+     [01;35m[K~~~~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/sandbox/1/a.cpp:30:10:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[Kint scanf(const char*, ...)[m[K', declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Kscanf("%d%d%d", &q[1], &c, &d)[m[K;
+     [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
