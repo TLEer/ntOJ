@@ -1,4 +1,4 @@
-SYZOJ Docker 版
+SYZOJ Docker 版 ( ntOJ version with nt's data )
 ---
 基于 docker-compose 实现的版本。
 
